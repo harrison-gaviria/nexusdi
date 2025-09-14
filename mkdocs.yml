@@ -40,11 +40,11 @@ plugins:
   - mkdocstrings:
       handlers:
         python:
-          paths: [nexusdi]
+          setup_commands:
+            - import sys
+            - sys.path.append("src")
           options:
             docstring_style: google
-            merge_init_into_class: true
-            show_source: false
 
 markdown_extensions:
   - pymdownx.highlight:

@@ -101,7 +101,6 @@ poetry add nexusdi
 
 Contributions are welcome!
 Please feel free to open an [issue](https://github.com/harrison-gaviria/nexusdi/issues) or submit a Pull Request.
-For major changes, start a discussion first in [GitHub Discussions](https://github.com/harrison-gaviria/nexusdi/discussions).
 
 ---
 

@@ -154,5 +154,3 @@ def initialize(scan_packages: list[Any] = None) -> None
 
 **Parameters:**
 - `scan_packages` (list[Any], optional): List of package names to scan. If None, scans all loaded modules.
-
-**Raises:**

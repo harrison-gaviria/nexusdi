@@ -6,7 +6,7 @@ singleton, transient, and scoped lifecycles with automatic dependency resolution
 """
 
 from .core.container import _container
-from .decorators.lifecycle import singleton, transient, scoped
+from .decorators.lifecycle import singleton, transient, scoped, bind_singleton, bind_transient, bind_scoped
 from .decorators.injection import service, controller, inject
 from .scanning.scanner import initialize
 
@@ -17,7 +17,10 @@ __all__ = [
     "scoped",
     "service",
     "controller",
-    "inject"
+    "inject",
+    "bind_singleton",
+    "bind_transient",
+    "bind_scoped"
 ]
 
 def scope_cleanup():

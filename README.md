@@ -119,4 +119,3 @@ This project is licensed under the MIT License – see the [LICENSE](https://git
 * LinkedIn: [Harrison Alonso Arroyave Gaviria](https://www.linkedin.com/in/harrison-alonso-arroyave-gaviria-4ba07b358)
 * Email: [harrisonarroyaveg@gmail.com](mailto:harrisonarroyaveg@gmail.com)
 
-```
